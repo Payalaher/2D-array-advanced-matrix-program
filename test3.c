@@ -47,13 +47,13 @@ for(int i=0; i<row;i++){
     }
 }
 
-if(identity==0){
-    printf("matrix is identity\n");
+if(identity==1){
+    printf("matrix is not identity\n");
 
 }
 
 else{
-    printf("matrix is not identity\n");
+    printf("matrix is identity\n");
 }
 
 
