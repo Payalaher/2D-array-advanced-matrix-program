@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 
-void lowertringuler(){
+void uppertringuler(){
 
       int row,col;
 
@@ -39,16 +39,14 @@ printf("\n");
 
 }
 
-printf("\n lower tringuler  matrix:\n");
+printf("\n upper tringuler  matrix:\n");
 
 for(int i=0; i<row;i++){
     for( int j=0; j<col; j++){
-       if(i>=j){
+       if(i>j){
         printf("%d\t",matrix[i][j]);
        }
 
-       else{
-        printf("0\t",matrix[i][j]);
        }
     }
     printf("\n");
@@ -60,11 +58,11 @@ for(int i=0; i<row;i++){
 
 
 
-}
+
 
 int main(){
 
-lowertringuler();
+uppertringuler();
 
     return 0;
 }
